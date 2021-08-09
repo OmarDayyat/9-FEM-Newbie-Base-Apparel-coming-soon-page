@@ -8,6 +8,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="./styles/style.css">
 
+    <script src="./javaScript/script.js" defer></script>
+
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
 
@@ -19,12 +21,14 @@
           <h1><span>We're</span>coming soon</h1>
           <p>Hello fellow shoppers! We're currently building our new fashion store.
             Add your email below to stay up-to-date with announcements and our launch deals.</p>
-          <form class="email-container">
-            <input class="email-input" type="email" placeholder="Email Address">
-            <button class="email-btn"><img src="./images/icon-arrow.svg" alt="Go" /></button>
-            <img class="error-image" src="./images/icon-error.svg" alt="Error" />
+          <form id="form" action="/" method="GET">
+            <div class="email-container">
+              <input id="email" name="email" class="email-input" type="email" placeholder="Email Address">
+              <button class="email-btn" type="submit"><img src="./images/icon-arrow.svg" alt="Go" /></button>
+              <img class="error-image" src="./images/icon-error.svg" alt="Error" />
+            </div>
           </form>
-          <p class="error-msg">Please provide a vaild email</p>
+          <p id="error" class="error-msg"></p>
         </div>
         <div class="image-container"></div>
       </div>

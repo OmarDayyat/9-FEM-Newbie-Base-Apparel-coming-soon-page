@@ -99,6 +99,11 @@ input{
   position: absolute;
   right: 25%;
   padding: 15px;
+  display: none;
+}
+
+.show{
+  display: inline;
 }
 
 .email-btn{
