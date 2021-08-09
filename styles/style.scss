@@ -52,9 +52,14 @@ p{
 .info-container{
   width: 60%;
   padding: 60px 180px;
-  img{
-    margin-bottom: 80px;
-  }
+}
+
+.logo-image{
+  margin-bottom: 80px;
+}
+
+.mobile-hero{
+  display: none;
 }
 
 /*==============
@@ -139,4 +144,82 @@ input{
   a {
     color: hsl(228, 45%, 44%);
   }
+}
+
+/*==============================================================
+                               Media
+================================================================*/
+
+@media only screen and (max-width:1024px){
+
+
+
+  h1{
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  p{
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .main-container{
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /*==============
+    Info Container
+  ================*/
+  
+  .info-container{
+    width: 100%;
+    padding: 60px 0px;
+  }
+
+  .logo-image{
+      margin-bottom: 40px;
+      padding: 0 0 0 40px;
+  }
+
+  .mobile-hero{
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  /*==============
+    Image Container
+  ================*/
+  
+  .image-container{
+    display: none;
+  }
+  
+  /*===============
+    Email Container
+  =================*/
+  
+  .email-container{
+    padding: 0 20px;
+    justify-content: center;
+  }
+  
+  .email-input{
+    width: 95%;
+  }
+  
+  .error-image{
+    right: 30%;
+  }
+  
+  .show{
+    display: inline;
+  }
+  
+  .email-btn{
+    right: 4%;
+  }
+  
 }

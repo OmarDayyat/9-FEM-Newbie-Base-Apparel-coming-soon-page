@@ -54,8 +54,12 @@ p {
   padding: 60px 180px;
 }
 
-.info-container img {
+.logo-image {
   margin-bottom: 80px;
+}
+
+.mobile-hero {
+  display: none;
 }
 
 /*==============
@@ -158,5 +162,71 @@ input {
 
 .attribution a {
   color: #3e52a3;
+}
+
+/*==============================================================
+                               Media
+================================================================*/
+@media only screen and (max-width: 1024px) {
+  h1 {
+    text-align: center;
+    padding: 0 20px;
+  }
+  p {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .main-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /*==============
+    Info Container
+  ================*/
+  .info-container {
+    width: 100%;
+    padding: 60px 0px;
+  }
+  .logo-image {
+    margin-bottom: 40px;
+    padding: 0 0 0 40px;
+  }
+  .mobile-hero {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  /*==============
+    Image Container
+  ================*/
+  .image-container {
+    display: none;
+  }
+  /*===============
+    Email Container
+  =================*/
+  .email-container {
+    padding: 0 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .email-input {
+    width: 95%;
+  }
+  .error-image {
+    right: 30%;
+  }
+  .show {
+    display: inline;
+  }
+  .email-btn {
+    right: 4%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
