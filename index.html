@@ -4,9 +4,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles/style.css">
 
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
@@ -14,19 +14,21 @@
   <body>
     <main>
       <div class="main-container">
-        <div class="info-container"></div>
-        <div class="image-container">
-
+        <div class="info-container">
+          <img src="./images/logo.svg" alt="logo" />
+          <h1><span>We're</span>coming soon</h1>
+          <p>Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <form class="email-container">
+            <input class="email-input" type="email" placeholder="Email Address">
+            <button class="email-btn"><img src="./images/icon-arrow.svg" alt="Go" /></button>
+            <img class="error-image" src="./images/icon-error.svg" alt="Error" />
+          </form>
+          <p class="error-msg">Please provide a vaild email</p>
         </div>
+        <div class="image-container"></div>
       </div>
     </main>
-
-    We're coming soon
-
-    Hello fellow shoppers! We're currently building our new fashion store.
-    Add your email below to stay up-to-date with announcements and our launch deals.
-
-    Email Address
 
     <footer>
       <p class="attribution">

@@ -9,7 +9,7 @@ $Dark-Grayish-Red: hsl(0, 6%, 24%);
 
 // ### Gradients
 
-$default: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
-$active: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+$active:  135deg, hsl(0, 80%, 95%),  hsl(0, 80%, 80%);
+$default:  135deg,  hsl(0, 80%, 86%),  hsl(0, 74%, 74%);
 
 $font: 'Josefin Sans', sans-serif;
