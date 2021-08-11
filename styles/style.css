@@ -170,11 +170,23 @@ input {
 @media only screen and (max-width: 1024px) {
   h1 {
     text-align: center;
+    font-size: 2.5rem;
     padding: 0 20px;
   }
   p {
     padding: 0 20px;
     text-align: center;
+  }
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .main-container {
     -webkit-box-orient: vertical;
